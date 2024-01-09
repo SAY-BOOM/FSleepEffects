@@ -1,0 +1,16 @@
+name: FSleepEffects
+version: '${project.version}'
+main: mc.sayboom.fsleepeffects.FSleepEffects
+api-version: '1.16'
+authors: [SAY_BOOM]
+description: Minecraft plugin for give player effects after sleep.
+commands:
+  fslp:
+    description: main command
+    permission: fslp.admin
+    permission-message: У тебя недостаточно прав!
+    usage: /<command> [reload]
+permissions:
+  fslp.admin:
+    description: Admin commands
+    default: op
